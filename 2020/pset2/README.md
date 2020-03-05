@@ -1,11 +1,7 @@
 # Problem Set 2
 
-**This problem set is due Wednesday, March 4th, at 11:59 p.m. Please submit your code and write-up. You must
-submit two separate files; one pdf containing your written solutions, and one ipython notebook containing your
-code. Your work must stand alone, be clear, concise, and generally well written, and not only provide
-answers to explicit questions we ask, but more generally demonstrate your thought process and understanding of
-the material in question. Please note any and all collaborators, as well as slack days used. You may not share
-your code, our starter code or data files, or your write-up with anyone.**
+
+**This problem set is due Wednesday, March 4th, at 11:59 p.m. Please submit your code to Stellar and your write-up to Gradescope. All students who submitted PSET 1 were added to the course's Gradescope roster, and you should have received an email (to your MIT email) to that effect. If you feel there's been an error, let us know and we can manually add you. You must submit two separate files; one pdf containing your written solutions (to Gradescope), and a zip of ipython notebooks containing your code (to Stellar). Your work must stand alone, be clear, concise, and generally well written, and not only provide answers to explicit questions we ask, but more generally demonstrate your thought process and understanding of the material in question. Please note any and all collaborators, as well as slack days used on the top of your PDF write-up. You may not share your code, our starter code or data files, or your write-up with anyone.**
 
 ## Problem 1: Clinical Concept Extraction
 ### Overview
