@@ -1,6 +1,6 @@
 # Problem Set 3
 
-**This problem set is due Friday, March 20th, at 5:59 p.m. Please submit your code and write-up. You must
+**This problem set is due Friday, April 3rd, at 5:59 p.m. Please submit your code and write-up. You must
 submit two separate files; one pdf containing ALL your written solutions (including any notebook output that
 is relevant to contextualize your answer) to Gradescope, and one ipython notebook containing your code to Stellar. Your work must stand
 alone, be clear, concise, and generally well written, and not only provide answers to explicit questions we
