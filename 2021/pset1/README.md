@@ -1,6 +1,7 @@
 # Problem set 1
 
-**This problem set is due Mon March 1 at 11:59pm EST. Please submit your write-up and code. When you write up your report, put all writing into one file and name it ${mit_email_username}.pdf (e.g. wboag.pdf). Please note any and all collaborators. You may not share code or write-ups with anyone.**
+**This problem set is due Mon March 1 at 11:59pm EST. Please submit your write-up and code. When you write up your report, put all writing into one file and name it ${mit_email_username}.pdf (e.g. wboag.pdf). You must write up their problem sets individually. You should not share your code or solutions (i.e., the write up) with anyone inside or outside of the class, nor should it be posted publicly to GitHub or any other website. You are asked on problem sets to identify your collaborators. If you did not discuss the problem set with anyone, you should write "Collaborators: none." If in writing up your solution you make use of any external reference (e.g. a paper, Wikipedia, a website), both acknowledge your source and write up the solution in your own words. It is a violation of this policy to submit a problem solution that you cannot orally explain to a member of the course staff. Plagiarism and other dishonest behavior cannot be tolerated in any academic environment that prides itself on individual accomplishment. If you have any questions about the collaboration policy, or if you feel that you may have violated the policy, please talk to one of the course staff.**
+
 
 We are interested in predicting hospital mortality from clinical records.
 
