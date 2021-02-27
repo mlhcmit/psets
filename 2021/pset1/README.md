@@ -66,6 +66,6 @@ It is important to understand who makes up your dataset and how your model perfo
 
 4.1) For each of the 5 ethnic categorizations provided in `adult_icu.gz`, how many people belong to each group? Are the hospital mortality rates the same for each group? 
 
-4.2) Create a histogram of the ages in the dataset (in buckets of 10: 20-29, 30-39, etc), and another histogram of mortality rates per bucket. What bucket has the highest mortality? The lowest?
+4.2) Create a histogram of the ages in the dataset (in buckets of 10: 20-29, 30-39, etc), and another bar plot of mortality rates of each bucket. What bucket has the highest mortality? The lowest?
 
 4.3) So that your answer doesn't depend on whether you found the best model in #2, retrain a model on the training set using C=1 and penalty='l2'. Evaluate your new model (AUC, accuracy) on patients in the test set who are less than 40, and patients in the test set who are older than 40. For what group is performance better? Can you hypothesize why? 
