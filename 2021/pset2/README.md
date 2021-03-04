@@ -4,7 +4,7 @@
 
 
 ## Link
-Pset 2 can be found [here]()
+Pset 2 can be found [here](https://github.com/mlhcmit/psets/blob/master/2021/pset2/ps2-mlhc-spring2021.pdf).
 
 
 ## Problem 1: Differential Diagnosis
