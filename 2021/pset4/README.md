@@ -8,11 +8,13 @@
 ### Overview
 
 In this problem, we will work with a subset of the MIMIC-CXR dataset, distributed through PhysioNet as in
-PSet 1. We will present you with a simulated experience of evaluating a potential model for deployment. In
+previous PSets. We will present you with a simulated experience of evaluating a potential model for deployment. In
 this case, the model in question (which we will provide to you, fully trained) is being evaluated for its use
 in the detection of [Pneumothorax (PTX)](https://en.wikipedia.org/wiki/Pneumothorax); a potentially dangerous
 condition often colloquially known as a collapsed lung. Ultimately, your desired use case for this model is to
 use it as a diagnostic aid for new patients to the ED.
+
+
 
 However, being an experienced MLHC researcher, you're concerned that perhaps this model is not actually
 leveraging viable diagnostic information to make its PTX decision--instead, it may be confounded by other
