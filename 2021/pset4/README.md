@@ -57,4 +57,4 @@ Fairness in machine learning is a recently established area that studies how to 
 
 In this problem, you will read a research paper that formulates and analyzes racial bias in commercial prediction algorithms for health care. You are expected to appreciate their mathematical formulation of this problem and come up with your solution to address the bias in machine learning for health.
 
-Please read this article: https://science.sciencemag.org/content/366/6464/447 and answer the questions given in https://github.com/mlhcmit/psets/blob/master/2021/pset4/ps4_mlhc_spring2021.pdf
+Please read this article: https://science.sciencemag.org/content/366/6464/447 and answer the questions given in the [ps4_mlhc_spring2021.pdf](https://github.com/mlhcmit/psets/blob/master/2021/pset4/ps4_mlhc_spring2021.pdf)
