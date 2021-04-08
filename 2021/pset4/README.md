@@ -44,8 +44,8 @@ according to traditional metrics is really ready for deployment. In addition, ot
   * To question the accuracy of automatic labels / gain exposure to label noise
   * To gain an introduction to CNNs/CV/radiograph data.
 
-### Link
-Problem 1 can be found here: https://colab.research.google.com/drive/1_Uv8c7AqbeFYnwnKgyeZRCVt4-wSEnGR
+### Code and Write-up Questions
+Code and write-up questions can be found here: https://colab.research.google.com/drive/1_Uv8c7AqbeFYnwnKgyeZRCVt4-wSEnGR
 
 You will be required to turn in both your final `.ipynb` colab file and include in your single separate writeup
 the answers to all questions explicitly asked in the "Write-Up Questions" sections.
