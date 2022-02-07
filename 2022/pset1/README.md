@@ -15,8 +15,8 @@ The MIMIC database is 40-50 GB. Given its large size, instead of your working wi
 
 Please follow the following steps to get your Google account connected with MIMIC:
 
- - Create a free Google Cloud Platform (GCP) account connected to a Gmail
- - Link the Gmail on your GCP account to your Physionet account. See detailed instructions on how to do so [here](https://mimic.physionet.org/gettingstarted/cloud). 
+ - (Optional) Create a free Google Cloud Platform (GCP) account connected to a Gmail; you may need the GCP for a class project and upcoming psets when utilizing addtional computing resources (e.g. GPU)
+ - Link the Gmail to your Physionet account. See detailed instructions on how to do so [here](https://mimic.physionet.org/gettingstarted/cloud). 
  - Request access to MIMIC on GCP: Go the PhysioNet MIMIC-III page, [Files section](https://physionet.org/content/mimiciii/1.4/#files), and click "Request access the files using Google Cloud Storage Browser" 
  - Check whether you can run the steps in the following [Colab notebook](https://colab.research.google.com/drive/1xReyOAF-dBivEHKJk88HPd9GMZaftxm8?usp=sharing). You may need to make a copy of it to run it.
 
