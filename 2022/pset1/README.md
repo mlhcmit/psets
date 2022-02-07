@@ -18,7 +18,6 @@ Please follow the following steps to get your Google account connected with MIMI
  - Create a free Google Cloud Platform (GCP) account connected to a Gmail
  - Link the Gmail on your GCP account to your Physionet account. See detailed instructions on how to do so [here](https://mimic.physionet.org/gettingstarted/cloud). 
  - Request access to MIMIC on GCP: Go the PhysioNet MIMIC-III page, [Files section](https://physionet.org/content/mimiciii/1.4/#files), and click "Request access the files using Google Cloud Storage Browser" 
- - (IMPORTANT) Once you complete the above process, send your Gmail address and the screenshot of your approved credentialing status (click on your ID at the top right of Physionet webpage, go to setting, and then Credentialing) to mlhc22mit@gmail.com, and within 1 to 2 hours, your account will be added to the GCP bucket. 
  - Check whether you can run the steps in the following [Colab notebook](https://colab.research.google.com/drive/1xReyOAF-dBivEHKJk88HPd9GMZaftxm8?usp=sharing). You may need to make a copy of it to run it.
 
 ## 1: Data exploration [10 points]
