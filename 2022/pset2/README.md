@@ -1,13 +1,13 @@
 # Problem set 1
 
-**This problem set is due Mon March 1 at 11:59pm EST. Please submit your write-up and code. When you write up your report, put all writing into one file and name it ${mit_email_username}.pdf (e.g. wboag.pdf). You must write up their problem sets individually. You should not share your code or solutions (i.e., the write up) with anyone inside or outside of the class, nor should it be posted publicly to GitHub or any other website. You are asked on problem sets to identify your collaborators. If you did not discuss the problem set with anyone, you should write "Collaborators: none." If in writing up your solution you make use of any external reference (e.g. a paper, Wikipedia, a website), both acknowledge your source and write up the solution in your own words. It is a violation of this policy to submit a problem solution that you cannot orally explain to a member of the course staff. Plagiarism and other dishonest behavior cannot be tolerated in any academic environment that prides itself on individual accomplishment. If you have any questions about the collaboration policy, or if you feel that you may have violated the policy, please talk to one of the course staff.**
+**This problem set is due Wed. Feb 16 at 11:59pm EST. Please submit your write-up and code. When you write up your report, put all writing into one file and name it ${mit_email_username}.pdf (e.g. itmoon.pdf). You must write up their problem sets individually. You should not share your code or solutions (i.e., the write up) with anyone inside or outside of the class, nor should it be posted publicly to GitHub or any other website. You are asked on problem sets to identify your collaborators. If you did not discuss the problem set with anyone, you should write "Collaborators: none." If in writing up your solution you make use of any external reference (e.g. a paper, Wikipedia, a website), both acknowledge your source and write up the solution in your own words. It is a violation of this policy to submit a problem solution that you cannot orally explain to a member of the course staff. Plagiarism and other dishonest behavior cannot be tolerated in any academic environment that prides itself on individual accomplishment. If you have any questions about the collaboration policy, or if you feel that you may have violated the policy, please talk to one of the course staff.**
 
 
 We are interested in predicting hospital mortality from clinical records.
 
 By now, you should have access to the [MIMIC-III](https://mimic.physionet.org/gettingstarted/access/) dataset. If you do not, please refer to Problem Set 0. If you still have problems with access to the data, please contact the course staff through Piazza. 
 
-The MIMIC-III database is 40-50 GB, so although all data comes from MIMIC-III, we have parsed it for your convenience. We will be using Google Colab for this Pset (essentially an IPython notebook in the cloud), since Physionet has made it possible to query MIMIC via Google Cloud. We will provide View-only versions of the Colab notebook, and you can make a copy for your own work. Note that when you run these notebooks, you may see a warning that states that the notebook was not authored by Google but instead by monica.n.agrawal@gmail.com-- this is expected and not a problem. Simply click "Run Anyway" and proceed.
+The MIMIC-III database is 40-50 GB, so although all data comes from MIMIC-III, we have parsed it for your convenience. We will be using Google Colab for this Pset (essentially an IPython notebook in the cloud), since Physionet has made it possible to query MIMIC via Google Cloud. We will provide View-only versions of the Colab notebook, and you can make a copy for your own work. Note that when you run these notebooks, you may see a warning that states that the notebook was not authored by Google but instead by 7itmoon@gmail.com-- this is expected and not a problem. Simply click "Run Anyway" and proceed.
 
 ## 0: Accessing Google Cloud Platform [0 points]
 
@@ -18,12 +18,13 @@ Please follow the following steps to get your Google account connected with MIMI
  - Create a free Google Cloud Platform (GCP) account connected to a Gmail
  - Link the Gmail on your GCP account to your Physionet account. See detailed instructions on how to do so [here](https://mimic.physionet.org/gettingstarted/cloud). 
  - Request access to MIMIC on GCP: Go the PhysioNet MIMIC-III page, [Files section](https://physionet.org/content/mimiciii/1.4/#files), and click "Request access the files using Google Cloud Storage Browser" 
- - Check whether you can run the steps in the following [Colab notebook](https://colab.research.google.com/drive/1Q9XrQBqbAb6S-g3z7NCwOMz_rHMReDsL). You may need to make a copy of it to run it.
+ - (IMPORTANT) Once you complete the above process, send your Gmail account and the screenshot of your approved credentialing status (click on your ID at the top right of Physionet webpage, go to setting, and then Credentialing) to mlhc22mit@gmail.com, and within 1 to 2 hours, your account will be added to the GCP bucket. 
+ - Check whether you can run the steps in the following [Colab notebook](https://colab.research.google.com/drive/1xReyOAF-dBivEHKJk88HPd9GMZaftxm8?usp=sharing). You may need to make a copy of it to run it.
 
 ## 1: Data exploration [10 points]
 The first step when accessing a new dataset is to explore the dataset and try to marry your understanding of the data generative process (in this case, clinical care) with the reality of the data you observe. Misunderstandings about the nature of the data can hamper effective modelling, or make models look much more effective than they really would be in deployment. In this part, we will explore the _unstructured_ data in MIMIC---in particular, the clinical notes. In later parts, we'll explore other aspects of the data. We hope that you find this exercise useful in understanding the clinical care received by patients. When everything is just dataframes and vectors, it might be easy to lose sight of the fact that we are trying to use data to help real people with serious problems.
 
-In the notebook [chart_review.ipynb](https://colab.research.google.com/drive/1WBk1kSS7P9pluwaPC5R9DqOAs3kDqSNP), we will first walk through one patient's hospital stay together in the section "Patient 1". Then, in the section "Patient 2", you will be asked to mirror that exploration on a new patient, and answer the following questions for your PSet write-up (these will make more sense based on the content in the earlier parts of the notebook):
+In the notebook [chart_review.ipynb](https://colab.research.google.com/drive/1zxTBjKsdPJeImJa0fbchqK68ayOO0q5g?usp=sharing), we will first walk through one patient's hospital stay together in the section "Patient 1". Then, in the section "Patient 2", you will be asked to mirror that exploration on a new patient, and answer the following questions for your PSet write-up (these will make more sense based on the content in the earlier parts of the notebook):
 
 1.1) What is the patient's History of Present Illness?
 
@@ -36,7 +37,7 @@ In the notebook [chart_review.ipynb](https://colab.research.google.com/drive/1WB
 
 ## 2. Structured data (logistic regression) [10 pooints]
 
-For sections 2-4, you can create a copy of [this Colab notebook](https://colab.research.google.com/drive/1uLgE5YYlcOl8e5TDrLSCNA-rtSU2h2RB), which contains links to the data files you need. 
+For sections 2-4, you can create a copy of [this Colab notebook](https://colab.research.google.com/drive/1Iq9tiF_JQZFkbI4jJhgauAdCTSaJbfC7?usp=sharing), which contains links to the data files you need. 
 
 We have provided the first-collected lab results from the first 48 hours of a patient’s stay. Take a look through the data of `adult_icu.gz`, saved in the colab to `lab_df` and the associated code that generated it in `mort_hosp_cleanup.py`. 
 
