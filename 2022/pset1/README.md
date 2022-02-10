@@ -36,7 +36,7 @@ In the notebook [chart_review.ipynb](https://colab.research.google.com/drive/1hZ
 
 ## 2. Structured data (logistic regression) [10 pooints]
 
-(IMPORTANT) For sections 2-4, before writing you code, you MUST create a copy of [this Colab notebook](https://colab.research.google.com/drive/1SNaQwV1rzatCHQQ9l6iMvm4sp5lyHaHT?usp=sharing), which contains links to the data files you need. 
+(IMPORTANT) For sections 2-4, before writing you code, you MUST create a copy of [this Colab notebook](https://colab.research.google.com/drive/1SNaQwV1rzatCHQQ9l6iMvm4sp5lyHaHT?usp=sharing) (File -> Save a copy in Drive).
 
 We have provided the first-collected lab results from the first 48 hours of a patient’s stay. Take a look through the data of `adult_icu.gz`, saved in the colab to `lab_df` and the associated code that generated it in `mort_hosp_cleanup.py`. 
 
