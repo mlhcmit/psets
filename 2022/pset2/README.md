@@ -18,8 +18,8 @@ Clinical concepts are an extremely commonly used tool. They allow us to translat
   4. How we can use those concepts for downstream analyses
 
 ### Code & Materials
-You will use the notebook linked [here](https://colab.research.google.com/drive/1Y-e9mgsfvU7cbpCE0_mhZeQteGCCCLhL?usp=sharing).
-Please save the notebook into your drive (File -> Save a copy in Drive) then start working on it.
+You will use the notebook linked [here](https://colab.research.google.com/drive/1mYKk_STC9-2TmkPNqXaIvFAkvUCive4Q?usp=sharing).
+(IMPORTANT) Please save the notebook into your drive (File -> Save a copy in Drive) then start working on it.
 
 The notebook contains detailed instructions and includes 8 short questions (1.1 through 1.8). In the final write-up PDF, please also include all the codes you've added/changed for answering the questions in a different color and font family. No need to upload the colab notebook.
 
