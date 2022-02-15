@@ -41,7 +41,7 @@ In this problem, we hope to show you
   5. Understand the different kinds of de-identification one might perform.
 
 ### Code & Materials
-You can find the colab notebook for this problem [here](https://colab.research.google.com/drive/1v_cYk1X-2rGo9PR6aJoDR_x6skr-xrDO?usp=sharing). Please save the notebook into your drive (File -> Save a copy in Drive) then start working on it.
+You can find the colab notebook for this problem [here](https://colab.research.google.com/drive/1Nb0yGOUKMmFakIUkTRFTWYn3n-PHnOJv?usp=sharing). Please save the notebook into your drive (File -> Save a copy in Drive) then start working on it.
 
 This notebook contains detailed instructions for this problem, including walking you through some pre-done dataset analysis and baseline models prior to diving into your specific deliverables. For reference, we ask you to answer a number of questions about baselines/data exploration and the neural network model. 
 
