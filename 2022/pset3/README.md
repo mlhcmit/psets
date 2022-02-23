@@ -47,14 +47,4 @@ according to traditional metrics is really ready for deployment. In addition, ot
 ### Code and Write-up Questions
 Code and write-up questions can be found here: https://colab.research.google.com/drive/1_Uv8c7AqbeFYnwnKgyeZRCVt4-wSEnGR
 
-You will be required to turn in both your final `.ipynb` colab file and include in your single separate writeup
-the answers to all questions explicitly asked in the "Write-Up Questions" sections.
-
-
-## Problem 2: Fairness in Machine Learning Algorithms for Health
-### Overview
-Fairness in machine learning is a recently established area that studies how to ensure that biases in the data and machine learning model do not lead to algorithms that treat individuals unfavorably on the basis of characteristics such as race, gender, disabilities, and sexual or political orientation. It is particularly concerning when biases arise from machine learning applications in medicine due to its consequential impact on human health and life. 
-
-In this problem, you will read a research paper that formulates and analyzes racial bias in commercial prediction algorithms for health care. You are expected to appreciate their mathematical formulation of this problem and come up with your solution to address the bias in machine learning for health.
-
-Please read this article: https://science.sciencemag.org/content/366/6464/447 and answer the questions in the [ps4_mlhc_spring2021.pdf](https://github.com/mlhcmit/psets/blob/master/2021/pset4/ps4_mlhc_spring2021.pdf).
+You will be required to turn in your final `.ipynb` colab file in addition to the answers for all questions explicitly asked in the "Write-Up Questions" sections.
