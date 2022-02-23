@@ -45,6 +45,6 @@ according to traditional metrics is really ready for deployment. In addition, ot
   * To gain an introduction to CNNs/CV/radiograph data.
 
 ### Code and Write-up Questions
-Code and write-up questions can be found here: https://colab.research.google.com/drive/1_Uv8c7AqbeFYnwnKgyeZRCVt4-wSEnGR
+Code and write-up questions can be found [here](https://colab.research.google.com/drive/1pQjhmPh5a4zgKnpP7EFyyzLJVhrrQVJW?usp=sharing).
 
 You will be required to turn in your final `.ipynb` colab file in addition to the answers for all questions explicitly asked in the "Write-Up Questions" sections.
