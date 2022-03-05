@@ -23,6 +23,7 @@ Your main learning objectives include :
 Code and write-up questions can be found [here](https://colab.research.google.com/drive/1StClzgknVBwCBp_kPue7W1Km4nwWs3uv?usp=sharing). (IMPORTANT) Please save the notebook into your drive (File -> Save a copy in Drive) then start working on it.
 
 References :
+
 [1] : Hernán MA, Robins JM (2020). Causal Inference: What If. Boca Raton: Chapman & Hall/CRC
 
 [2] : Neal (2020). Introduction to Causal Inference from a Machine Learning Perspective
