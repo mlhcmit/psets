@@ -24,4 +24,5 @@ Code and write-up questions can be found [here](https://colab.research.google.co
 
 References :
 [1] : Hernán MA, Robins JM (2020). Causal Inference: What If. Boca Raton: Chapman & Hall/CRC
+
 [2] : Neal (2020). Introduction to Causal Inference from a Machine Learning Perspective
