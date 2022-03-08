@@ -27,3 +27,5 @@ References :
 [1] : Hernán MA, Robins JM (2020). Causal Inference: What If. Boca Raton: Chapman & Hall/CRC
 
 [2] : Neal (2020). Introduction to Causal Inference from a Machine Learning Perspective
+
+[3] : Gelman, A., & Hill, J. (2006). Data Analysis Using Regression and Multilevel/Hierarchical Models (Analytical Methods for Social Research). Cambridge: Cambridge University Press.
