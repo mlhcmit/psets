@@ -17,9 +17,9 @@ Your main learning objectives include:
 In Part II of the Problem Set, you will get a chance to apply your understanding of causal analysis on a real-world dataset. Your main task is to estimate the average treatment effect (ATE) of quitting smoking ($T$) on weight gain ($Y$), using the [NHEFS](https://wwwn.cdc.gov/nchs/nhanes/nhefs/default.aspx/) dataset. 
 
 Your main learning objectives include:
-1. Understand a mechanism of how confounders, when unadjusted, can introduce bias into the ATE. 
-2. Learn how to implement propensity score re-weighting to obtain the ATE in Python.
-3. Learn how to implement covariate adjustment strategies to obtain the conditional average treatment effect (CATE) as well as ATE in Python.
+1. Understand a mechanism of how confounders, when unadjusted, can introduce bias into the ATE estimate. 
+2. Learn how to implement propensity score re-weighting to estimate the ATE in Python.
+3. Learn how to implement covariate adjustment strategies to estimate the conditional average treatment effect (CATE) as well as ATE in Python.
 4. Assess how robust the estimated ATE is against potential unobserved confounders via sensitivity analysis. 
 
 ### Code and Write-up Questions
