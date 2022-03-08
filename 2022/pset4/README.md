@@ -5,7 +5,7 @@
 (IMPORTANT) If you are submitting a pdf version of your notebook, please **remove cells and outputs (e.g. boilerplate/provided codes, instructions, model training logs, and etc.) that are not directly relevant to the write-up questions.**
 
 ## Part I :
-
+[Part 1](./ps4_part1.pdf)
 
 
 
