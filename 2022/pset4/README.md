@@ -4,16 +4,19 @@
 
 (IMPORTANT) If you are submitting a pdf version of your notebook, please **remove cells and outputs (e.g. boilerplate/provided codes, instructions, model training logs, and etc.) that are not directly relevant to the write-up questions.**
 
-## Part I :
-[Part 1](./ps4_part1.pdf)
+## Part I : Implications of Lack of Overlap in Causal Inference
+We will begin with a deep dive into a core assumption in causal inference: overlap (also known as common support or positivity). See this document for the first part of the problem set: [Part 1](./ps4_part1.pdf)
 
-
+Your main learning objectives include: 
+1. Understand conceptually why IPW results in a biased estimator when there is a lack of overlap. 
+2. Understand how the ATE changes in regions of overlap when different parametric assumptions are made.
+3. Reason about the identifiability of the ATE in covariate regions with no overlap.
 
 ## Part II : Implementing propensity scores re-weighting and covariate adjustment methods in Python
 
 Now that you have gained conceptual and theoretical understanding of causal inference analysis in Part I, for this part, you will get a chance to apply your understanding to analyzing real-world dataset and building a pipeline in Python. Your main task is to estimate the average treatment effect (ATE) of quitting smoking T on weight gain Y, using the [NHEFS](https://wwwn.cdc.gov/nchs/nhanes/nhefs/default.aspx/) dataset. 
 
-Your main learning objectives include :
+Your main learning objectives include:
 1. Understand a mechanism of how confounders, when unadjusted, can introduce bias into the ATE. 
 2. Learn how to implement propensity scores re-weighting to obtain the ATE in Python.
 3. Learn how to implement covariate adjustment strategies to obtain the conditional average treatment effect (CATE) as well as ATE in Python.
