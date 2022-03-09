@@ -5,7 +5,7 @@ This problem set is due Wednesday, March 18th, at 11:59 p.m. Please submit your 
 (IMPORTANT) If you are submitting a pdf version of your notebook, please **remove cells and outputs (e.g. boilerplate/provided code, instructions, model training logs, etc.) that are not directly relevant to the write-up questions.**
 
 ## Part I : Implications of Lack of Overlap in Causal Inference
-We will begin with a deep dive into a core assumption in causal inference: overlap (also known as common support or positivity). See this document for the first part of the problem set: [Part 1](./6871-ps4-part1.pdf)
+We will begin with a deep dive into a core assumption in causal inference: overlap (also known as common support or positivity). See this document for the first part of the problem set: [Part 1](./6871-ps4-part1.pdf). This problem was written with input from members of the Clinical ML Group.
 
 Your main learning objectives include: 
 1. Understand conceptually why IPW results in a biased estimator when there is a lack of overlap. 
