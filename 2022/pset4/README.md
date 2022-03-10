@@ -9,7 +9,7 @@ We will begin with a deep dive into a core assumption in causal inference: overl
 
 Your main learning objectives include: 
 1. Understand conceptually why IPW results in a biased estimator when there is a lack of overlap. 
-2. Understand how the ATE changes in regions of overlap when different parametric assumptions are made.
+2. Understand how the ATE estimate changes in regions of overlap when different parametric assumptions are made.
 3. Reason about the identifiability of the ATE in covariate regions with no overlap.
 
 ## Part II : Implementing propensity scores re-weighting and covariate adjustment methods in Python
