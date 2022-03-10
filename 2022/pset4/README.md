@@ -5,7 +5,7 @@ This problem set is due Friday, March 18th, at 11:59 p.m. Please submit your wri
 (IMPORTANT) If you are submitting a pdf version of your notebook, please **remove cells and outputs (e.g. boilerplate/provided code, instructions, model training logs, etc.) that are not directly relevant to the write-up questions.**
 
 ## Part I : Implications of Lack of Overlap in Causal Inference
-We will begin with a deep dive into a core assumption in causal inference: overlap (also known as common support or positivity). See this document for the first part of the problem set: [Part 1](./ps4-part1-final.pdf).
+We will begin with a deep dive into a core assumption in causal inference: overlap (also known as common support or positivity). See this document for the first part of the problem set: [Part 1](./ps4-part1-final.pdf). The source .tex for this file is [here](./ps4-part1-final-tex.zip).
 
 Your main learning objectives include: 
 1. Understand how one's estimate of the ATE changes in regions of overlap when different parametric assumptions are made.
