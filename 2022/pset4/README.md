@@ -5,12 +5,12 @@ This problem set is due Friday, March 18th, at 11:59 p.m. Please submit your wri
 (IMPORTANT) If you are submitting a pdf version of your notebook, please **remove cells and outputs (e.g. boilerplate/provided code, instructions, model training logs, etc.) that are not directly relevant to the write-up questions.**
 
 ## Part I : Implications of Lack of Overlap in Causal Inference
-We will begin with a deep dive into a core assumption in causal inference: overlap (also known as common support or positivity). See this document for the first part of the problem set: [Part 1](./6871-ps4-part1.pdf).
+We will begin with a deep dive into a core assumption in causal inference: overlap (also known as common support or positivity). See this document for the first part of the problem set: [Part 1](./ps4-part1-final.pdf).
 
 Your main learning objectives include: 
-1. Understand conceptually why IPW results in a biased estimator when there is a lack of overlap. 
-2. Understand how one's estimate of the ATE changes in regions of overlap when different parametric assumptions are made.
-3. Reason about the identifiability of the ATE in covariate regions with no overlap.
+1. Understand how one's estimate of the ATE changes in regions of overlap when different parametric assumptions are made.
+2. Reason about the identifiability of the ATE in covariate regions with no overlap.
+3. Understand conceptually how to reason about the output of the IPW estimator when there is a lack of overlap. 
 
 ## Part II : Implementing propensity scores re-weighting and covariate adjustment methods in Python
 
