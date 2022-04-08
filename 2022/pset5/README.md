@@ -6,7 +6,7 @@ This problem set is due Wednesday, April 20th, at 11:59 p.m. Please submit your 
 
 ## Part I : Learning from Noisy Labels
 ### Overview
-In this problem, you will build on the proofs for learning from noisy labels we worked through during class. Specifically, you will be investigating the anchor-and-learn approach as well as how to leverage noisy labels at prediction time, if they're available.
+In this problem, you will build on the proofs for learning from noisy labels we worked through during class. Specifically, you will be investigating the anchor-and-learn approach as well as how to leverage noisy labels at prediction time, if they're available. See this document for the first part of the problem set: [Part 1](./ps5-part1-final.pdf).
 
 ### Learning Goals
 Medical data is messy and true gold labels are often hard or prohibitively expensive to obtain in bulk. As a result, it is often necessary to leverage noisy labels in the training process. 
