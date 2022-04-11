@@ -26,3 +26,6 @@ In this part of the problem set, we'll walk you through data pre-processing, sur
 
 ### Code and Write-up Questions
 Code and write-up questions can be found [here](https://colab.research.google.com/drive/1Oc2yRdOqv4BVVMGLXBZ1c0Mdeeio-V-w?usp=sharing). (IMPORTANT) Please save the notebook into your drive (File -> Save a copy in Drive) before starting to work on it.
+
+### Pset feedback :
+Once you complete the problem set, please complete [the feedback form](https://forms.gle/vriE3aPxvDvJoc2f7). We're eager to hear your thoughts/feedback on the pset! 
