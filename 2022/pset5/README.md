@@ -17,7 +17,7 @@ In this problem, we hope you:
 
 ## Part II : Survival Analysis
 ### Overview
-In this part of the problem set, we'll walk you through data pre-processing, survival model development, and model evaluation for widely-used semi-parametric and parametric survival models. At the end, you will build a deep-learning based survival model and compare its performance to those of the conventional baseline models.
+In this part of the problem set, we'll walk you through data pre-processing, survival model development, and model evaluation for widely-used semi-parametric and parametric survival models. At the end, you will build a deep-learning based survival model and compare its performance to the performance of conventional baseline models.
  
 ### Learning Goals
 1. Understand modeling assumptions for different types of survival models.
